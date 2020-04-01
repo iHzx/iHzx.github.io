@@ -1,0 +1,76 @@
+/* This rule targets bodies, and has two styles in it */
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:600);
+
+body
+{
+  background-color: #002b36;
+  color: #fdf6e3;
+  font-family: 'Titillium Web', sans-serif;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+
+/* This rule targets links */
+a
+{
+  color: #2aa198;
+}
+
+/* This rule targets links your mouse is over */
+a:hover
+{
+  color: #dc322f;
+}
+
+/* This rule move the text to the right of the cat */
+.right_side {
+   float: left;
+   width: 55%;
+}
+
+
+/* This rule targets the div with class(name) my_top_section */
+.my_top_section
+{
+  color: #93a1a1;
+}
+
+/* lets color the code so it pops out */
+.code
+{
+  color: #dc322f;  
+  font-style: italic;
+}
+
+/* This rule targets any ordered lists on the page */
+ol, .ordered
+{
+  color: #d33682; 
+}
+
+.informal, .informal ul
+{
+  color: #b58900;
+  list-style: none;
+}
+
+.informal > li {
+  border-left: 4px solid #6c71c4;
+  padding-left: 10px;
+  margin: 5px -20px;
+}
+
+.informal li li {
+  border-left: 4px solid #d33682;
+  padding-left: 10px;
+  margin: 5px -20px;
+}
+
+
+/* This rule resizes the image */
+img.catrooper {
+  height: 300px;
+  width:  300px;
+  float: left;
+}
